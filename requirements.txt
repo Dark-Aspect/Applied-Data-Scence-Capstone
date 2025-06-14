@@ -1,0 +1,26 @@
+# Python version
+python_version >= 3.8
+
+# Jupyter environment
+notebook
+
+# Data manipulation
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+folium
+
+# Machine Learning
+scikit-learn
+
+# Web scraping
+beautifulsoup4
+requests
+
+# SQL support in notebooks
+sqlalchemy
+ipython-sql
