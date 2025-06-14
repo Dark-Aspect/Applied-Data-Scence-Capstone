@@ -1,7 +1,7 @@
-# 🚀 Applied-Data-Scence-Capstone
+# Applied-Data-Scence-Capstone
 This project analyzes SpaceX Falcon 9 launch data to predict whether the first stage of the rocket will successfully land. The analysis includes data collection from the SpaceX REST API, data wrangling, exploratory data analysis, interactive dashboards using Plotly Dash, and predictive modeling using machine learning algorithms
 
-## 📂 Project Structure
+## Project Structure
 - 01_jupyter-labs-spacex-data-collection-api.ipynb – Collects data using SpaceX REST API
 
 - 02_jupyter-labs-webscraping.ipynb – Collects data using web scraping
@@ -18,7 +18,7 @@ This project analyzes SpaceX Falcon 9 launch data to predict whether the first s
 
 - 08_SpaceX_Machine Learning Prediction_Part_5.ipynb – Trains and evaluates classification models
 
-## 🧠 Techniques Used
+## Techniques Used
 - REST API calls and BeautifulSoup web scraping
 
 - Data cleaning and wrangling with Pandas
@@ -35,28 +35,17 @@ This project analyzes SpaceX Falcon 9 launch data to predict whether the first s
 
 - Plotly Dash for interactive dashboards
 
-## ✅ Results
+## Results
 - All ML models achieved 83% accuracy on the test set
 
 - Key features like FlightNumber, PayloadMass, Orbit, and LaunchSite impact landing success
 
 - Visualizations and dashboards provided actionable insights for mission planning
 
-## 📊 Business Impact
+## Business Impact
 Understanding the predictors of successful landings can help SpaceX reduce mission costs, optimize launch conditions, and improve decision-making for future launches.
 
-## 🔗 External Links
+## External Links
 - [SpaceX API](https://api.spacexdata.com/v4/launches/past)
 
 - [Wikipedia Falcon 9 Launches Page](https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches)
-
-## 📌 Requirements
-- Python 3.8+
-
-- Jupyter Notebook
-
-- pandas, numpy, matplotlib, seaborn, plotly, folium
-
-- scikit-learn, beautifulsoup4, requests
-
-- sqlalchemy, ipython-sql
